@@ -88,6 +88,37 @@ h2 {
     text-align: left;
 }
 
+li {
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    border-radius: 1em;
+    /* background: dodgerblue; */
+    background: white;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    margin: 0 1em;
+    display: inline-block;
+    /* color: white; */
+    position: relative;
+  }
+  
+  li::before{
+    content: '';
+    position: absolute;
+    top: .9em;
+    left: -4em;
+    width: 4em;
+    height: .2em;
+    background: dodgerblue;
+    z-index: -1;
+  }
+
+  li:first-child::before {
+    display: none;
+  }
+
 
 
 

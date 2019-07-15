@@ -88,7 +88,7 @@ h2 {
     text-align: left;
 }
 
-li {
+.services-circles li {
     width: 2em;
     height: 2em;
     text-align: center;
@@ -102,9 +102,9 @@ li {
     display: inline-block;
     /* color: white; */
     position: relative;
-  }
-  
-  li::before{
+}
+
+.services-circles li::before{
     content: '';
     position: absolute;
     top: .9em;
@@ -113,12 +113,106 @@ li {
     height: .2em;
     background: dodgerblue;
     z-index: -1;
-  }
+}
+.services-circles li:first-child::before {
+    display: none;  
+}
 
-  li:first-child::before {
-    display: none;
-  }
+/* CORE VALUES */
 
+.core-values {
+
+}
+.core-values-text {
+    position: relative;
+    height: 450px;
+    background-image: url(./img/core-values-background.svg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.core-values-text:before {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #1B2733;
+    opacity: 0.9;
+    z-index:0;
+}
+.core-values h2 {
+    position: relative;
+}
+.core-values-paragraph{
+    position: relative;
+    max-width: 1120px;
+    margin: 4em auto;
+    text-align: left;
+    color: white;
+    z-index:1;
+}
+.block-headings{
+    display: flex;
+    position: relative;
+    top: -5em;
+}
+.block-heading {
+    height: 270px;
+    width: 300px;
+    text-align: center;
+    margin: 0 5em;
+    z-index:1;
+}
+.block-heading h2 {
+    padding-top: 50px;
+}
+
+.block-heading:nth-child(1) {
+    background-color: #E3EFFF;
+}
+.block-heading:nth-child(2) {
+    background-color: #CEE3FF;
+}
+.block-heading:nth-child(3) {
+    background-color: #ADC8F6;
+}
+
+
+/* WHY US */
+
+.why-us {
+    height: 821px;
+    background-image: url(./img/why-us-background.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #E5E5E5;
+}
+.why-us-content {
+    margin-left: 700px;
+    margin-top: 150px;
+    width: 600px;
+}
+.content-div {
+    margin: 20px 0;
+}
+  
+/* our-team */
+
+.our-team {
+    height: 844px;
+    background-color: #1B2733;
+    color: white;
+}
+
+.our-team-div {
+    text-align: center;
+}
+.our-team-content{
+    width: 300px;
+    margin: auto;
+    /* padding-top: 50px; */
+}
 
 
 

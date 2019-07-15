@@ -14,32 +14,31 @@
 <body>
     <nav class="navbar navbar-expand navbar-light bg-light">
         <img src="./img/bluematters_logo.svg" alt="bluematters logo" id="logo">
-
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav  mt-2 mt-lg-4">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#about">
                         <p class="linkNames">ABOUT</p> <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#services">
                         <p class="linkNames">SERVICES</p> <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#corevalues">
                         <p class="linkNames">CORE VALUES</p> <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#whyus">
                         <p class="linkNames">WHY US</p> <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <p class="linkNames">HOUR TEAM</p> <span class="sr-only">(current)</span>
+                    <a class="nav-link" href="#ourteam">
+                        <p class="linkNames">OUR TEAM</p> <span class="sr-only">(current)</span>
                     </a>
                 </li>
             </ul>
@@ -48,19 +47,32 @@
             </form>
         </div>
     </nav>
+
     <Main>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="./video/Bluematter Video Final Cut HD (1-6-2019).mp4"
+                allowfullscreen></iframe>
+        </div>
+
         <div class="about">
-            <h2 class="about-header">ABOUT</h2>
-            <P class="about-paragraph">Bluematters is a pan-European provider of unique resourcing solutions. In the
-                complex world of sourcing
-                skilled personnel, we can deliver. We source and deploy experienced teams to projects across multiple
-                sectors. Our team uses their knowledge of numerous industries to source the right personnel with the
-                right competencies to deliver your project. We will work with you to understand what success means to
-                you, and we’ll adapt our model to deliver on those success crtieria.</P>
+            <h2 class="about-header" id="about">ABOUT</h2>
+            <div class="about-block-big"></div>
+            <div class="about-block"></div>
+            <div>
+                <p class="about-paragraph">Bluematters is a pan-European provider of unique resourcing solutions. In the
+                    complex world of sourcing
+                    skilled personnel, we can deliver. We source and deploy experienced teams to projects across
+                    multiple
+                    sectors. Our team uses their knowledge of numerous industries to source the right personnel with the
+                    right competencies to deliver your project. We will work with you to understand what success means
+                    to
+                    you, and we’ll adapt our model to deliver on those success crtieria.</p>
+            </div>
+
         </div>
 
         <div class="services">
-            <h2 class="services-header">SERVICES</h2>
+            <h2 class="services-header" id="services">SERVICES</h2>
             <div class="buttons">
                 <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-secondary active btn-project">
@@ -89,58 +101,74 @@
                     <li>5</li>
                 </ul>
             </div>
+            <div class="row rowrowrow">
+                <div class="col-2 circle-paragraph">We meet with you and understand your requirements</div>
+                <div class="col-2 circle-paragraph">We use our network to source suitable qualified people</div>
+                <div class="col-2 circle-paragraph">They are employed by us but work
+                    for you</div>
+                <div class="col-2 circle-paragraph">We look after all their HR needs
+                    and payments</div>
+                <div class="col-2 circle-paragraph">We carry out regular performance reviews with you</div>
+            </div>
         </div>
-        
+
         <div class="core-values">
             <div class="back">
-                    <div class="core-values-text">
-                        <h2 class="core-values-heading">CORE VALUES</h2>
-                        <p class="core-values-paragraph">In an culture that has often seen Blue Collar workers valued less than other workers we work hard to ensure our employees are given every opportunity to become a trusted member of your teams.  We have three core  principles throughout our organisation.</p>
-                    </div>
+                <div class="core-values-text">
+                    <h2 class="core-values-heading" id="corevalues">CORE VALUES</h2>
+                    <p class="core-values-paragraph">In an culture that has often seen Blue Collar workers valued less
+                        than other workers we work hard to ensure our employees are given every opportunity to become a
+                        trusted member of your teams.  We have three core principles throughout our organisation.</p>
+                </div>
             </div>
-            
+
 
             <div class="row justify-content-md-center block-headings">
                 <div class="block-heading">
                     <h2>1.</h2>
-                    <p>We want to develop long standing partnerships with our clients and we will forego short term profit to achieve this goal.</p>
+                    <p>We want to develop long standing partnerships with our clients and we will forego short term
+                        profit to achieve this goal.</p>
                 </div>
                 <div class="block-heading">
                     <h2>2.</h2>
-                    <p>We want to develop long standing partnerships with our clients and we will forego short term profit to achieve this goal.</p>
+                    <p>We want to develop long standing partnerships with our clients and we will forego short term
+                        profit to achieve this goal.</p>
                 </div>
                 <div class="block-heading">
                     <h2>3.</h2>
-                    <p>We want to develop long standing partnerships with our clients and we will forego short term profit to achieve this goal.</p>
+                    <p>We want to develop long standing partnerships with our clients and we will forego short term
+                        profit to achieve this goal.</p>
                 </div>
             </div>
         </div>
 
 
         <div class="why-us">
-            <div class="why-us-heading">
+            <div class="why-us-heading" id="whyus">
                 <h2>WHY US</h2>
             </div>
             <div class="row why-us-content">
                 <div class="row content-div">
-                    <div class="col-sm-3"><img src="./img/FLEXIBILITY1.svg" alt=""></div>
-                    <div class="col-sm-9">
+                    <div class="col-sm-2 why-us-img-div"><img src="./img/FLEXIBILITY1.svg" alt=""></div>
+                    <div class="col-sm-10">
                         <h3>FLEXIBILITY</h3>
-                        <p>We can support you through challenging growth periods by providing resources on a short or long-term basis – where and when you need them.</p>
+                        <p>We can support you through challenging growth periods by providing resources on a short or
+                            long-term basis – where and when you need them.</p>
                     </div>
                 </div>
                 <div class="row content-div">
-                    <div class="col-sm-3"><img src="./img/european1.svg" alt=""></div>
-                    <div class="col-sm-9">
+                    <div class="col-sm-2 why-us-img-div""><img src=" ./img/european1.svg" alt=""></div>
+                    <div class="col-sm-10">
                         <h3>EUROPEAN WIDE</h3>
                         <p>Our coverage ensures we can supply the right team at any location accross the Europe.</p>
                     </div>
                 </div>
                 <div class="row content-div">
-                    <div class="col-sm-3"><img src="./img/COST1.svg" alt=""></div>
-                    <div class="col-sm-9">
+                    <div class="col-sm-2 why-us-img-div""><img src=" ./img/COST1.svg" alt=""></div>
+                    <div class="col-sm-10">
                         <h3>REDUCED COST BASE</h3>
-                        <p>Our Business support Services means you can reduce the costs associated with lower-value back office activities, allowing you to focus on higher value client facing tasks.</p>
+                        <p>Our Business support Services means you can reduce the costs associated with lower-value back
+                            office activities, allowing you to focus on higher value client facing tasks.</p>
                     </div>
                 </div>
             </div>
@@ -148,34 +176,88 @@
 
 
         <div class="our-team">
-            <div class="our-team-heading">
+            <div class="our-team-heading" id="ourteam">
                 <h2>OUR TEAM</h2>
             </div>
             <div class="row">
                 <div class="col-4 our-team-div">
-                    <img src="./img/MAN1.svg" alt="">
-                    <div class="col our-team-content">
+                    <img src="./img/Declan.svg" alt="">
+                    <div class=" col our-team-content">
                         <h3>DECLAN HUGHES</h3>
-                        <div>Declan has over 40 years’ experience in Telecoms, I.T. and Consultancy. Half of his career has been spent in the Corporate world, including a spell as MD of the Irish arm of a U.K. PLC, and half in the SME world where he owned and ran a number of different entities before co-founding BlueMatters in 2019. Declan is a non-exec director for the ISPCC and sits on a number of tech start-up boards.</div>
+                        <div class="our-team-text">Declan has over 40 years’ experience in Telecoms, I.T. and
+                            Consultancy. Half of his career
+                            has been spent in the Corporate world, including a spell as MD of the Irish arm of a U.K.
+                            PLC, and half in the SME world where he owned and ran a number of different entities before
+                            co-founding BlueMatters in 2019. Declan is a non-exec director for the ISPCC and sits on a
+                            number of tech start-up boards.</div>
                     </div>
-                    
+
                 </div>
                 <div class="col-4 our-team-div">
                     <div class="col our-team-content">
-                        <img src="./img/MAN2.svg" alt="">
+                        <img src="./img/David.svg" alt="">
                         <h3>DAVID COX</h3>
-                        <div>Declan has over 40 years’ experience in Telecoms, I.T. and Consultancy. Half of his career has been spent in the Corporate world, including a spell as MD of the Irish arm of a U.K. PLC, and half in the SME world where he owned and ran a number of different entities before co-founding BlueMatters in 2019. Declan is a non-exec director for the ISPCC and sits on a number of tech start-up boards.</div>
+                        <div class="our-team-text">Dave started out life as an electrician but quickly moved to Telecoms
+                            where he spent 9
+                            years working in fixed line and mobile. He left to start up Secto, a supplier of field
+                            services into the Telco and Power markets where he experienced first-hand the challenges of
+                            getting a good supply of Blue Collar workers. Dave sold his shares in Secto to start a
+                            construction business and co-founded BlueMatters in 2019.</div>
                     </div>
                 </div>
                 <div class="col-4 our-team-div">
-                        <div class="col our-team-content">
-                    <img src="./img/MAN3.svg" alt="">
-                    <h3>GEERT JAN LUTJES</h3>
-                    <div>Declan has over 40 years’ experience in Telecoms, I.T. and Consultancy. Half of his career has been spent in the Corporate world, including a spell as MD of the Irish arm of a U.K. PLC, and half in the SME world where he owned and ran a number of different entities before co-founding BlueMatters in 2019. Declan is a non-exec director for the ISPCC and sits on a number of tech start-up boards.</div>
-                </div>
+                    <div class="col our-team-content">
+                        <img src="./img/Geert.svg" alt="">
+                        <h3>GEERT JAN LUTJES</h3>
+                        <div class="our-team-text">Declan has over 40 years’ experience in Telecoms, I.T. and
+                            Consultancy. Half of his career
+                            has been spent in the Corporate world, including a spell as MD of the Irish arm of a U.K.
+                            PLC, and half in the SME world where he owned and ran a number of different entities before
+                            co-founding BlueMatters in 2019. Declan is a non-exec director for the ISPCC and sits on a
+                            number of tech start-up boards.</div>
+                    </div>
                 </div>
             </div>
         </div>
+
+
+        <footer>
+            <div class=" contact-us">
+                <div class=>
+                    <h2 class="contact-us-heading">CONTACT US</h2>
+                </div>
+                <div class="col contact-us-info">
+                    <div class="col">
+                        <h4>Amsterdam</h4>
+                        <p>+31 20 241 6135</p>
+                    </div>
+                    <div class="col">
+                        <h4>Dublin</h4>
+                        <p>+353 1 697 2238</p>
+                    </div>
+                    <div class="col">
+                        <h4>Lviv</h4>
+                        <p>+380 32 242 4810</p>
+                    </div>
+                    <div class="col">
+                        <h4>London</h4>
+                        <p>+31 203 129 4559</p>
+                    </div>
+                    <div class="col">
+                        <h4>Krakow</h4>
+                        <p>+48 12 396 6260</p>
+                    </div>
+                </div>
+
+                <div class="contact-us-footer row">
+                    <img src="./img/bluematters-logo-footer.svg" alt="bluematters logo" class="col-3 align-self-center">
+                    <small class=" align-self-center justify-content-center">&copy; Copyright 2058, Example
+                        Corporation</small>
+                </div>
+            </div>
+        </footer>
+
+
     </Main>
 </body>
 
